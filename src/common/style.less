@@ -1,0 +1,53 @@
+@success:#00b939;
+@warning:#E6A23C;
+@danger:#F56C6C;
+@info:#f9f6f8;
+@light:#a7a8ab;
+//复选框
+.newCheckSty {
+    padding-right: 10rpx;
+    /deep/ .el-checkbox__inner {
+      border: 1px solid @success;
+    }
+    /deep/ .is-checked .el-checkbox__inner {
+      border-color: @success;
+      background-color: @success;
+    }
+    /deep/ .el-checkbox__input.is-focus .el-checkbox__inner {
+      border-color: @success;
+    }
+  }
+//用户协议
+.agreement {
+font-size: 24rpx;
+    .text {
+      color: @success;
+    }
+  }
+//灰色字体
+.light{
+    color: @light;
+}
+//绿色字体
+.success{
+  color: #39b279;
+}
+//绿色标签
+.tag_green {
+  padding: 4rpx 20rpx;
+  margin-right: 16rpx;
+  font-size: 20rpx;
+  color: #39b279;
+  font-weight: 600;
+  border-radius: 20rpx;
+  background: #e5f6ee;
+}
+.tag_light {
+  padding: 4rpx 20rpx;
+  margin-right: 16rpx;
+  font-size: 20rpx;
+  color: @light;
+  font-weight: 600;
+  border-radius: 20rpx;
+  background: #e5f6ee;
+}
